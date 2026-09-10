@@ -14,6 +14,7 @@ print(vegetables[-1])
 length=[len(x) for x in fruits]
 print(length)
 print('Water' in beverages)
-tup=('Apple','pototo','Water')
+tup=(fruits[0],vegetables[0],beverages[0])
 print(tup)
+
 
