@@ -1,0 +1,10 @@
+item=input("Enter the item: ")
+f=open("item.txt","w")
+f.write(item)
+f.close()
+g=open("item.txt","a")
+g.write("Pencil")
+g.close()
+h=open("item.txt","r")
+print(h.read())
+
